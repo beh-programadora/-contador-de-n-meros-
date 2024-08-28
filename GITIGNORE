@@ -1,0 +1,37 @@
+
+### .gitignore
+
+```gitignore
+# Ignorar arquivos Python compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar diretórios de cache
+__pycache__/
+Enunciado do Projeto
+# Enunciado do Projeto: Contador de 1 a 10
+
+## Objetivo
+
+Desenvolver um script em Python que utilize um loop `while` para contar de 1 a 10 e imprimir cada número no console.
+
+## Requisitos
+
+1. O script deve inicializar um contador com o valor 1.
+2. Utilizar um loop `while` para iterar enquanto o valor do contador for menor ou igual a 10.
+3. A cada iteração, o valor do contador deve ser impresso na tela.
+4. Após imprimir o valor, o contador deve ser incrementado em 1.
+5. O script deve parar quando o contador for maior que 10.
+
+## Passos para Implementação
+
+1. Crie um arquivo chamado `contador.py`.
+2. No arquivo, inicialize uma variável chamada `contador` com o valor 1.
+3. Implemente um loop `while` que verifica se o `contador` é menor ou igual a 10.
+4. Dentro do loop, utilize a função `print()` para exibir o valor do `contador`.
+5. Após a impressão, incremente o `contador` em 1.
+6. Salve e execute o script para verificar se o resultado está correto.
+
+## Exemplo de Saída Esperada
+
